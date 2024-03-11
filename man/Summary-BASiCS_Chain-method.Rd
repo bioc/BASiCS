@@ -11,8 +11,13 @@
 \arguments{
 \item{x}{A \code{\linkS4class{BASiCS_Chain}} object.}
 
+\item{...}{Unused.}
+
 \item{prob}{\code{prob} argument for \code{\link[coda]{HPDinterval}}
 function.}
+
+\item{na.rm}{Should missing values be removed from the computation?
+If not, any parameters with at least one NA value will return NA.}
 }
 \value{
 An object of class \code{\linkS4class{BASiCS_Summary}}.

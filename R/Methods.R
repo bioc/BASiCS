@@ -125,8 +125,11 @@ setMethod(
 #' the high posterior density interval (probabilty equal to \code{prob})
 #'
 #' @param x A \code{\linkS4class{BASiCS_Chain}} object.
+#' @param ... Unused.
 #' @param prob \code{prob} argument for \code{\link[coda]{HPDinterval}}
 #' function.
+#' @param na.rm Should missing values be removed from the computation?
+#' If not, any parameters with at least one NA value will return NA.
 #'
 #' @return An object of class \code{\linkS4class{BASiCS_Summary}}.
 #'
